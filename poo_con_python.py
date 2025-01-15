@@ -54,6 +54,11 @@ class Personaje:
             print("Error, valor negativo")
         else:
             self.__fuerza = fuerza
+    
+class Guerrero(Personaje):
+    pass
+
+tlatoani = Guerrero("Apcalipto",50,70,30,100)
 
 #Variable del constructo vacío de la clase
 mi_personaje = Personaje("Chris", 80, 3, 70, 100)
